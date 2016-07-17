@@ -8,7 +8,7 @@ services:
 
   node:
     container_name: nodeapp
-    image: nodeapp
+    image: nodeapp # This is just a radom name (no such predefined image)
     build:
       context: .
       dockerfile: .docker/node.development.dockerfile

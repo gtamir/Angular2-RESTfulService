@@ -31,3 +31,8 @@
 - `docker-compose stop` - Stop containers
 - `docker-compose down` - Stop and remove containers
 
+
+## Custom commands
+
+- docker build -f .docker\node.development.dockerfile -t mynodeapp .
+- docker run mynodeapp
